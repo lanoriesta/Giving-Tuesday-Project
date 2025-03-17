@@ -3,7 +3,7 @@ import MKVImg from "../asset/GivingTuesday 1 logo txt.png";
 
 const MainKeyVisualSection = () => {
   return (
-    <div className="bg-[url(src/asset/mkv-bg.png)] bg-cover bg-center flex flex-col justify-center items-center py-15 px-5">
+    <div className="bg-[url(dist/asset/mkv-bg.png)] bg-cover bg-center flex flex-col justify-center items-center py-15 px-5">
       <div className="py-5">
         <img src={MKVImg} alt="" className="drop-shadow-md" />
       </div>
