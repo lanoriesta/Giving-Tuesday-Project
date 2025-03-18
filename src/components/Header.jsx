@@ -6,7 +6,7 @@ import SideNav from "./SideNav";
 const Header = () => {
   const [clickSideNav, setClickSideNav] = useState(false);
   return (
-    <div className="flex justify-between items-center px-3 mx-2 relative py-5 lg:px-20 xl:px-40 2xl:px-100 ">
+    <div className="flex justify-between items-center px-3 mx-auto relative py-5 md:w-[48rem] lg:w-[64rem] xl:w-[80rem] 2xl:w-[96rem]">
       <div className="pl-8">
         <img
           className=" drop-shadow-md"
