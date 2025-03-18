@@ -9,6 +9,7 @@
   --color-blue: #0139a8;
   --color-black: #121212;
   --color-gray: #222323;
+  --imgMKV-url: url("/src/asset/mkv-bg.png");
 }
 
 * {
