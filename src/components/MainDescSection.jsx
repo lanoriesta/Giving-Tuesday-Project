@@ -5,7 +5,7 @@ import { ArrowRightCircle } from "lucide-react";
 const MainDescSection = () => {
   return (
     <div className=" bg-[var(--color-blue)]">
-      <div className="grid lg:grid-cols-2 mx-auto md:w-[48rem] lg:w-[64rem] xl:w-[80rem] 2xl:w-[96rem]">
+      <div className="grid lg:grid-cols-2 mx-auto w-full sm:[40rem] md:w-[48rem] lg:w-[64rem] xl:w-[80rem] 2xl:w-[96rem]">
         <div className="bg-[var(--color-blue)] flex flex-col justify-center px-10 py-10">
           <h1 className="text-3xl/0 font-bold py-5 text-wrap text-center lg:text-left">
             <span className="text-[var(--color-white)]">Giving</span>

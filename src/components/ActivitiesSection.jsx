@@ -5,7 +5,7 @@ import activitiesItem from "../activites";
 const ActivitiesSection = () => {
   return (
     <div className="bg-[var(--color-blue)]  text-white">
-      <div className="md:w-[48rem] lg:w-[64rem] xl:w-[80rem] 2xl:w-[96rem] mx-auto p-5 md:p-10">
+      <div className="w-full sm:w-[40rem] md:w-[48rem] lg:w-[64rem] xl:w-[80rem] 2xl:w-[96rem] mx-auto p-5 md:p-10">
         <div className="text-center flex flex-col items-center pb-5">
           <h2 className=" text-[2rem]/20 font-bold">Activities</h2>
           <hr className="w-[150px] h-[10ppx] text-[var(--color-yellow)]" />
@@ -15,7 +15,7 @@ const ActivitiesSection = () => {
           {activitiesItem.map((activity) => (
             <div
               key={activity.id}
-              className="bg-[var(--color-red)] shadow-lg rounded-sm flex flex-row w-full md:flex-col gap-y-3"
+              className="bg-[var(--color-red)] shadow-lg rounded-sm flex flex-row md:flex-col gap-y-3"
             >
               <img
                 className="w-full object-cover"
