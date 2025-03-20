@@ -3,7 +3,7 @@ import GivingTuesdayTextLogo from "../asset/GivingTuesday 1 logo txt.png";
 
 const Footer = () => {
   return (
-    <footer className=" text-white py-7">
+    <footer className=" text-white py-7 z-10">
       <div className="flex flex-col items-center md:items-start gap-3">
         <img src={GivingTuesdayTextLogo} alt="Giving Tuesday" width={300} />
         <p className="text-[var(--color-white)]/60 text-xs text-center md:text-left">

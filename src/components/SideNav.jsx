@@ -4,7 +4,7 @@ import React from "react";
 const SideNav = ({ isSideNavOn, setIsSideNavOn }) => {
   return (
     <div
-      className={`lg:hidden h-[100vh] w-full flex flex-col items-end bg-[var(--color-blue)]/50 p-5 shadow-lg fixed shadow-l-lg top-0  z-10 ${
+      className={`lg:hidden h-[100vh] w-full flex flex-col items-end bg-[var(--color-blue)]/50 p-5 shadow-lg fixed shadow-l-lg top-0  z-20 ${
         isSideNavOn ? " right-0 backdrop-blur-md" : " -right-500 "
       }`}
     >
