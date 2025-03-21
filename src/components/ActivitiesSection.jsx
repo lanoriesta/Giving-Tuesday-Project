@@ -15,19 +15,19 @@ const ActivitiesSection = () => {
           {activitiesItem.map((activity) => (
             <div
               key={activity.id}
-              className="bg-[var(--color-red)] shadow-lg rounded-sm flex flex-row md:flex-col gap-y-3"
+              className="bg-[var(--color-red)] shadow-lg rounded-sm gap-y-3"
             >
               <img
-                className="w-full object-cover"
+                className="h-48 w-full object-cover "
                 src={activity.image}
                 alt=""
               />
-              <div className="p-5 flex flex-col gap-y-3">
+              <div className="p-5 ">
                 <h3 className="font-bold text-[1.2rem]">{activity.title}</h3>
-                <p className="opacity-70 line-clamp-2 md:line-clamp-none">
+                <p className="opacity-70 pt-3 line-clamp-2 md:line-clamp-3 lg:line-clamp-none">
                   {activity.description}
                 </p>
-                <button className="text-[var(--color-white)] cursor-pointer flex items-center gap-1 hover:text-[var(--color-yellow)] hover:gap-3 transition-all duration-300 ease-in-out">
+                <button className="text-[var(--color-white)] pt-5 text-pretty cursor-pointer flex items-center gap-1 hover:text-[var(--color-yellow)] hover:gap-3 transition-all duration-300 ease-in-out">
                   Read more
                   <ArrowRightCircle />
                 </button>
