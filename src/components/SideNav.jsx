@@ -1,7 +1,14 @@
 import { X } from "lucide-react";
-import React from "react";
+import React, { useEffect } from "react";
 
 const SideNav = ({ isSideNavOn, setIsSideNavOn }) => {
+  useEffect(() => {
+    if (isSideNavOn) {
+      document.body.classList.add("no-scroll");
+    } else {
+      document.body.classList.remove("no-scroll");
+    }
+  }, [isSideNavOn]);
   return (
     <div
       className={`lg:hidden h-[100vh] w-full flex flex-col items-end bg-[var(--color-blue)]/50 p-5 shadow-lg fixed shadow-l-lg top-0  z-20 ${

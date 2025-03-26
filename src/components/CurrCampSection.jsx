@@ -10,7 +10,7 @@ const CurrCampSection = () => {
     <div className=" bg-white md:flex flex-col items-center justify-center ">
       <div className="px-5 py-10 md:w-[48rem] lg:w-[64rem] xl:w-[80rem] 2xl:w-[96rem] mx-auto">
         <div className="text-center flex flex-col items-center">
-          <h2 className="text-3xl/18 font-bold"> Current Campaigns</h2>
+          <h2 className="text-3xl/18 font-bold">Current Campaigns</h2>
           <hr className="w-[150px] h-[10ppx] text-[var(--color-yellow)]" />
         </div>
         <div>

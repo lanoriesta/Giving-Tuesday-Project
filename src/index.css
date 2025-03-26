@@ -22,3 +22,7 @@ body {
   background-repeat: no-repeat;
   background-size: 50px;
 }
+
+.no-scroll {
+  overflow: hidden;
+}

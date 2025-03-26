@@ -8,7 +8,7 @@ const MainKeyVisualSection = () => {
         <img src={MKVImg} alt="" className="drop-shadow-md" />
       </div>
       <div className="flex flex-col gap-3 py-5">
-        <button className="bg-[var(--color-blue)] text-white px-8 py-2 hover:bg-[var(--color-yellow)] hover:text-[var(--color-blue)] transition-all cursor-pointer">
+        <button className="bg-[var(--color-blue)] text-[var(--color-white)] px-8 py-2 hover:bg-[var(--color-yellow)] hover:text-[var(--color-blue)] transition-all cursor-pointer">
           Join GivingTuesdayPh
         </button>
         <button className="bg-[var(--color-blue)] text-white px-8 py-2 hover:bg-[var(--color-yellow)] hover:text-[var(--color-blue)] transition-all cursor-pointer">
